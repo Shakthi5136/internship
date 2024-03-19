@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a83f6817.css",
+    "main.js": "/static/js/main.dcf43fc0.js",
+    "static/js/453.630dcfac.chunk.js": "/static/js/453.630dcfac.chunk.js",
+    "static/media/person17.png": "/static/media/person17.06d1f1223b8bb3ad4408.png",
+    "static/media/person6.png": "/static/media/person6.800d2ec42b4fea4e1353.png",
+    "static/media/person10.png": "/static/media/person10.f4e395bb7be63511d5dc.png",
+    "static/media/person15.png": "/static/media/person15.de059a9c6e0c4ccd01c1.png",
+    "static/media/person5.png": "/static/media/person5.a30dbfcff813e6f6a7c0.png",
+    "static/media/person3.png": "/static/media/person3.17912c9319f1d7205df1.png",
+    "static/media/person14.png": "/static/media/person14.c7a6f8221bec83961940.png",
+    "static/media/person12.png": "/static/media/person12.ea26027e15ce6ca58a65.png",
+    "static/media/person9.png": "/static/media/person9.ccf75fa25f81e31e3e1d.png",
+    "static/media/person4.png": "/static/media/person4.d0e06bf6207d18a0e2e4.png",
+    "static/media/person13.png": "/static/media/person13.d1dd21751e8a4e65ce94.png",
+    "static/media/person2.png": "/static/media/person2.32e246d8b8ce77127b65.png",
+    "static/media/person8.png": "/static/media/person8.0ef273e5f82649c1dc68.png",
+    "static/media/person16.png": "/static/media/person16.7a12558ed04eb28da508.png",
+    "static/media/person19.png": "/static/media/person19.fc99ab0e779228ac0b96.png",
+    "static/media/person1.png": "/static/media/person1.0515bfdd52aad64d051e.png",
+    "static/media/person18.png": "/static/media/person18.38a0483773d0375b650b.png",
+    "static/media/person11.png": "/static/media/person11.65224af2fda40f7313ca.png",
+    "static/media/person7.png": "/static/media/person7.3b2a67bdd8f388ab15a4.png",
+    "index.html": "/index.html",
+    "main.a83f6817.css.map": "/static/css/main.a83f6817.css.map",
+    "main.dcf43fc0.js.map": "/static/js/main.dcf43fc0.js.map",
+    "453.630dcfac.chunk.js.map": "/static/js/453.630dcfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a83f6817.css",
+    "static/js/main.dcf43fc0.js"
+  ]
+}

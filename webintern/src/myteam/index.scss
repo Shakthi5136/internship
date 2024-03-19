@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    --primary-color: #E6A4B4; 
+    --secondary-color: #FF204E;
+    --background-color:  #F5EEE6;
+}
+
+.index-page {
+    
+    background-attachment: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--background-color);
+    position: absolute;
+
+
+.headingbox {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 10px;
+    display: inline;
+    margin: 0 auto;
+    margin-top: 0%;
+    transition: transform 0.3s ease-in-out; 
+    
+}
+.headingbox:hover{
+    animation: rubberBand 1s;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    transform: scale(1.1); 
+}
+
+.container, .container1 {
+    color: var(--primary-color);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+   margin-top: 50px;
+  
+}
+
+.corner-image {
+    right: 0%;
+    top: -5%;
+    position: absolute;
+    color: var(--primary-color);
+}
+
+.p1 {
+    transform: translateY(-50%);
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: var(--primary-color);
+    
+   
+}
+
+.text-animate {
+    display: inline-block;
+    
+ animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+  }
+  
+  .text-animate-hover {
+    color: var(--primary-color);
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+  
+    &:hover {
+      animation: rubberBand 1s;
+      color: var(--secondary-color);
+    }
+  }
+  
+.separator {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    color: var(--primary-color);
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.people {
+    width: 100%;
+    max-width: 250px; 
+    height: auto;
+    margin: 20px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.people:hover {
+    transform: scale(1.1); 
+}
+
+.image-row {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.employee-details {
+    text-align: center; 
+    width: 100%; 
+}
+
+.position, .name {
+    margin: 5px; 
+}
+}
+
+@media screen and (max-width: 768px) {
+    .index-page{
+        align-items: center; 
+        flex-direction: column; 
+        align-items: center; 
+        font-size: 15px;
+        position: relative ;
+    }
+
+    .container, .container1 {
+        flex-direction: column; 
+        align-items: center; 
+        font-size: 15px;
+        position: relative ;
+    }
+
+    .corner-image,.corner-image-right {
+        display: none; 
+    }
+    .separator{
+        font-size: 20px;
+    }
+    .p1 {
+        font-size: 20px; 
+    }
+
+    .people {
+        margin: 20px; 
+    }
+}
